@@ -11,9 +11,9 @@ Vue.config.productionTip = false
 
 // configure router
 const router = new VueRouter({
-  routes, // short for routes: routes
-  linkExactActiveClass: "nav-item active"
+  routes // short for routes: routes
 });
+
 
 Vue.use(VueRouter)
 
